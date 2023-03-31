@@ -195,3 +195,61 @@ Donde 192.168.201.1 = Ip del dispositivo a comunicarnos.
 </div>
 
 ## 5.0 Levantando Intefaces
+#### Se configuro cada router con la siguiente tabla.
+<div align="center">
+
+![Imagen 15 tablarouter](./Imagenes/tablaRouter.png)
+
+</div>
+
+### Se configuran las intefaces para realizar el redireccionamiento de trafico ya que si estas estan apagadas no pueden establecer comunicación.
+
+### Para ingresar a la configuracion del router seguir los siguientes pasos:
+<div align="center">
+
+![Imagen 16 ingresarRouter](./Imagenes/ingresarRouter.png)
+
+</div>
+
+
+### Ahora ingresamos los siguientes comandos:
+```bash
+  Router> enable
+```
+
+```bash
+  Router#config t
+```
+```bash
+  Router(config)#int sx/x
+```
+Donde int = interface, s = Serial y x/x 
+= Puerto donde esta conectado.
+```bash
+  Router(config-if)#ip address 172.201.0.1 255.255.0.0
+```
+Donde 192.168.201.1 = Direccion de red y 255.255.0.0 = MascaraSubRed
+```bash
+  Router(config-if)#no shutdown
+```
+
+### Estos pasos se debe de realizar 2 veces para comunicar del Router1-Router2 y Router1-Router3.
+
+<div align="center">
+
+![Imagen 17 activarInterfaces](./Imagenes/activarInterfaces.png)
+
+</div>
+
+### Esto se repite para los 2 router restante tomando en cuenta que la direccion de red cambia para cada uno al igual que el puerto donde esta conectado.
+
+## 6.0 Ruteo Estatico
+
+### El ruteo estatico no es mas que definir una ruta y configurara esa ruta manualmente.
+#### Se configuro cada router con la siguiente tabla.
+<div align="center">
+
+![Imagen 18 tablaRuteo](./Imagenes/tablaRuteo.png)
+
+</div>
+
