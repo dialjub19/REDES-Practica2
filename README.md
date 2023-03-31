@@ -60,8 +60,23 @@ Que el estudiante de Redes de Computadores 1, aprenda a implementar y  desarroll
 Se configuro cada host/computadora con la siguiente tabla.
 <div align="center">
 
-![Imagen 2 Tabla](./Imagenes/tabla.png)
+![Imagen 2 Tabla](./Imagenes/tablaHost.png)
 
 </div>
 
 Donde x = numeroGrupo + ultimos 2 digitos de carnet -> x = 13 + (7+0) = 20
+
+#### Ingresamos a la interfaz de cada Host para configura su IP, mascara de subred y getaway.
+<div align="center">
+
+![Imagen 2 Tabla](./Imagenes/ingresandoInterfaz.png)
+
+</div>
+
+<div align="center">
+
+![Imagen 2 Tabla](./Imagenes/IpConfig.png)
+
+</div>
+
+Repetimos este proceso para todos los host de nuestra topologia.
