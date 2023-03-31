@@ -129,3 +129,69 @@ Donde 192.168.201.1 = getaway y 255.255.255.0 = MascaraSubRed
 </div>
 
 ### Esto lo realizamos para cada router tomando en cuenta que el getaway cambia para cada uno.
+
+## 4.0 Ping entre dispositivos.
+### Para realizar un ping seguir los siguiente pasos:
+
+<div align="center">
+
+![Imagen 8 routerComando1](./Imagenes/IngresarPing.png)
+
+</div>
+
+### Ahora ingresamos los siguientes comandos:
+```bash
+  C:\>ping 192.168.201.1
+```
+Donde 192.168.201.1 = Ip del dispositivo a comunicarnos.
+
+### Ping de la PC1-Router y PC1-PC2 dentro de la RED: 192.168.201.0/24 :
+
+<div align="center">
+
+![Imagen 9 pingPc1](./Imagenes/pingPc1.png)
+
+</div>
+
+### Ping de la PC2-Router y PC2-PC1 dentro de la RED: 192.168.201.0/24 :
+
+<div align="center">
+
+![Imagen 10 pingPc2](./Imagenes/pingPc2.png)
+
+</div>
+
+### Ping de la PC3-Router y PC3-PC4 dentro de la RED: 192.168.202.0/24 :
+
+<div align="center">
+
+![Imagen 11 pingPc3](./Imagenes/pingPc3.png)
+
+</div>
+
+### Ping de la PC4-Router y PC4-PC3 dentro de la RED: 192.168.202.0/24 :
+
+<div align="center">
+
+![Imagen 12 pingPc4](./Imagenes/pingPc4.png)
+
+</div>
+
+### Ping de la PC5-Router y PC5-PC6 dentro de la RED: 192.168.203.0/24 :
+
+<div align="center">
+
+![Imagen 13 pingPc5](./Imagenes/pingPc5.png)
+
+</div>
+
+
+### Ping de la PC6-Router y PC6-PC5 dentro de la RED: 192.168.203.0/24 :
+
+<div align="center">
+
+![Imagen 14 pingPc6](./Imagenes/pingPc6.png)
+
+</div>
+
+## 5.0 Levantando Intefaces
