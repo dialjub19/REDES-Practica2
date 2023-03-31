@@ -1,5 +1,3 @@
-# REDES-Practica2
-Que el estudiante de Redes de Computadores 1, aprenda a implementar y  desarrollar una topología de red que utiliza protocolos de capa 2 y capa 3,  configurar ruteo estático y configurar interfaces Seriales.
 <p style="font-size: 18px">
 Universidad de San Carlos de Guatemala
 <br>
@@ -8,10 +6,6 @@ Facultad de Ingeniería
 Escuela de Ciencias y Sistemas
 <br>
 Redes de Computadoras 1
-<br>
-Ing. Miguel Marin de León
-<br>
-Aux. Juan Pablo García Monzón
 </p>
 
 <br><br><br><br>
@@ -22,7 +16,7 @@ Aux. Juan Pablo García Monzón
 
 <br><br><br>
 
-<h4 align="center" style="font-size: 30px; font-weight: bold;">Grupo 1</h4>
+<h4 align="center" style="font-size: 30px; font-weight: bold;">Grupo 13</h4>
 
 <br><br>
 
@@ -31,16 +25,14 @@ Aux. Juan Pablo García Monzón
 
 | Carnet | Nombre |
 | :-: | :-:| 
-| 201700965 | José Carlos I Alonzo Colocho |
-| 201700319 | Estanley Rafael Cóbar García |
-| 201709140 | Oscar Armin Crisostomo Ruiz |
-| 201709309 | José Alejandro Santizo Cotto  |
+| 201700770 | Diego Alejandro Juarez Bran |
+
 
 </div>
 
 <br><br>
 
-<h4 align="center" style="font-size: 18px; font-weight: bold;">Guatemala 31 de Agosto 2021</h4>
+<h4 align="center" style="font-size: 18px; font-weight: bold;">Guatemala 1 de Marzo 2023</h4>
 
 
 *** 
@@ -49,3 +41,11 @@ Aux. Juan Pablo García Monzón
 <br><br><br><br>
 
 *** 
+
+## Objetivos de la practica.
+
+Que el estudiante de Redes de Computadores 1, aprenda a implementar y  desarrollar una topología de red que utiliza protocolos de capa 2 y capa 3,  configurar ruteo estático y configurar interfaces seriales.
+
+## Desarrollo de la practica
+
+### Topologia utilizada
