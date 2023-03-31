@@ -87,11 +87,17 @@ Donde x = numeroGrupo + ultimos 2 digitos de carnet -> x = 13 + (7+0) = 20
 
 
 ## 3.0 Configuracion de Routers
-### Para ingresar a la interfaz del switch seguimos los siguientes pasos:
-### Click en el router y luego a la pestaña CLI
+#### Se configuro cada Router con la siguiente tabla.
 <div align="center">
 
-![Imagen 5 routerConfig](./Imagenes/routerConfig.png)
+![Imagen 5 TablaGetaway](./Imagenes/tablaGetaway.png)
+
+</div>
+### Para ingresar a la interfaz del switch seguimos los siguientes pasos:
+
+<div align="center">
+
+![Imagen 6 routerConfig](./Imagenes/routerConfig.png)
 
 </div>
 
@@ -117,7 +123,7 @@ Donde 192.168.201.1 = getaway y 255.255.255.0 = MascaraSubRed
 ```
 <div align="center">
 
-![Imagen 6 routerComando1](./Imagenes/routerComando1.png)
+![Imagen 7 routerComando1](./Imagenes/routerComando1.png)
 
 </div>
 
