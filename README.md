@@ -49,9 +49,19 @@ Que el estudiante de Redes de Computadores 1, aprenda a implementar y  desarroll
 
 ## Desarrollo de la practica
 
-### Topologia utilizada
+### 1.0 Topologia utilizada
 <div align="center">
 
 ![Imagen 1 Topologia](./Imagenes/topologia.png)
 
 </div>
+
+### 2.0 Configuracion de Host
+Se configuro cada host/computadora con la siguiente tabla.
+<div align="center">
+
+![Imagen 2 Tabla](./Imagenes/tabla.png)
+
+</div>
+
+Donde x = numeroGrupo + ultimos 2 digitos de carnet -> x = 13 + (7+0) = 20
