@@ -50,3 +50,8 @@ Que el estudiante de Redes de Computadores 1, aprenda a implementar y  desarroll
 ## Desarrollo de la practica
 
 ### Topologia utilizada
+<div align="center">
+
+![Imagen 1 Topologia](./Imagenes/topologia.png)
+
+</div>
