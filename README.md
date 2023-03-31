@@ -245,7 +245,7 @@ Donde 192.168.201.1 = Direccion de red y 255.255.0.0 = MascaraSubRed
 
 ## 6.0 Ruteo Estatico
 
-### El ruteo estatico no es mas que definir una ruta y configurara esa ruta manualmente.
+### El ruteo estatico no es mas que definir una ruta y configurarla esa ruta manualmente.
 #### Se configuro cada router con la siguiente tabla.
 <div align="center">
 
@@ -253,3 +253,32 @@ Donde 192.168.201.1 = Direccion de red y 255.255.0.0 = MascaraSubRed
 
 </div>
 
+### Ahora ingresamos los siguientes comandos para configurar Router2:
+```bash
+  Router> enable
+```
+
+```bash
+  Router#config t
+```
+
+```bash
+  Router(config-if)#ip route 192.168.201.0 255.255.255.0 172.201.0.1
+```
+Donde Direccion de red = 192.168.201.0, MascaraSubRed = 255.255.255.0 y Getaway = 172.201.0.1
+
+### Ruteo del Router2-Router3.
+<div align="center">
+
+![Imagen 18 ruteo2-3](./Imagenes/ruteo2-3.png)
+
+</div
+
+### Ruteo del Router3-Router2.
+<div align="center">
+
+![Imagen 19 ruteo3-2](./Imagenes/ruteo3-2.png)
+
+</div
+
+### El ruteo se hace tando del Router2-Router3 como del Router3-Router2 para que tenga conexion.
