@@ -114,3 +114,10 @@ Donde 192.168.201.1 = getaway y 255.255.255.0 = MascaraSubRed
 ```bash
    Router(config-if)#no shutdown/shut
 ```
+<div align="center">
+
+![Imagen 6 routerComando1](./Imagenes/routerComando1.png)
+
+</div>
+
+### Esto lo realizamos para cada router tomando en cuenta que el getaway cambia para cada uno.
