@@ -1,3 +1,7 @@
+*** 
+<br>
+*** 
+
 <p style="font-size: 18px">
 Universidad de San Carlos de Guatemala
 <br>
@@ -36,10 +40,7 @@ Redes de Computadoras 1
 
 
 *** 
-
-
-<br><br><br><br>
-
+<br><br>
 *** 
 
 ## Objetivos de la practica.
