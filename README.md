@@ -93,6 +93,7 @@ Donde x = numeroGrupo + ultimos 2 digitos de carnet -> x = 13 + (7+0) = 20
 ![Imagen 5 TablaGetaway](./Imagenes/tablaGetaway.png)
 
 </div>
+
 ### Para ingresar a la interfaz del switch seguimos los siguientes pasos:
 
 <div align="center">
