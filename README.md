@@ -1,5 +1,7 @@
 *** 
+
 <br>
+
 *** 
 
 <p style="font-size: 18px">
@@ -69,14 +71,46 @@ Donde x = numeroGrupo + ultimos 2 digitos de carnet -> x = 13 + (7+0) = 20
 #### Ingresamos a la interfaz de cada Host para configura su IP, mascara de subred y getaway.
 <div align="center">
 
-![Imagen 2 Tabla](./Imagenes/ingresandoInterfaz.png)
+![Imagen 3 ingresandoInterfaz](./Imagenes/ingresandoInterfaz.png)
 
 </div>
 
 <div align="center">
 
-![Imagen 2 Tabla](./Imagenes/IpConfig.png)
+![Imagen 4 IpConfig](./Imagenes/IpConfig.png)
 
 </div>
 
 Repetimos este proceso para todos los host de nuestra topologia.
+
+
+
+## 3.0 Configuracion de Routers
+### Para ingresar a la interfaz del switch seguimos los siguientes pasos:
+### Click en el router y luego a la pestaña CLI
+<div align="center">
+
+![Imagen 5 routerConfig](./Imagenes/routerConfig.png)
+
+</div>
+
+### Ahora ingresamos los siguientes comandos:
+```bash
+  Router> enable
+```
+
+```bash
+  Router#config t
+```
+```bash
+  Router(config)#int fx/x
+```
+Donde int = interface, f = Fast Ethernet y x/x 
+= Puerto donde esta conectado.
+```bash
+  Router(config-if)#ip address 192.168.201.1 255.255.255.0
+```
+Donde 192.168.201.1 = getaway y 255.255.255.0 = MascaraSubRed
+```bash
+   Router(config-if)#no shutdown/shut
+```
