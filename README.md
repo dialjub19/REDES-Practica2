@@ -285,4 +285,24 @@ Donde Direccion de red = 192.168.201.0, MascaraSubRed = 255.255.255.0 y Getaway 
 
 ## 7.0 Envio y recepcion de paquetes.
 
-[![Alt text]()](https://www.youtube.com/watch?v=configuroweb)
+### Paquetes del Router1-Router2.
+  <div align="center">
+
+![Imagen 20 Paquetes1-2](./Imagenes/Paquetes1-2.png)
+
+</div
+  
+### Paquetes del Router2-Router3.
+  <div align="center">
+
+![Imagen 21 Paquetes2-3](./Imagenes/Paquetes2-3.png)
+
+</div
+  
+### Paquetes del Router3-Router1.
+  
+ <div align="center">
+
+![Imagen 22 Paquetes3-1](./Imagenes/Paquetes3-1.png)
+
+</div
