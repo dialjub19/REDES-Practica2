@@ -245,7 +245,7 @@ Donde 192.168.201.1 = Direccion de red y 255.255.0.0 = MascaraSubRed
 
 ## 6.0 Ruteo Estatico
 
-### El ruteo estatico no es mas que definir una ruta y configurarla esa ruta manualmente.
+### El ruteo estatico no es mas que definir una ruta y configurar esa ruta manualmente.
 #### Se configuro cada router con la siguiente tabla.
 <div align="center">
 
@@ -282,3 +282,7 @@ Donde Direccion de red = 192.168.201.0, MascaraSubRed = 255.255.255.0 y Getaway 
 </div
 
 ### El ruteo se hace tando del Router2-Router3 como del Router3-Router2 para que tenga conexion.
+
+## 7.0 Envio y recepcion de paquetes.
+
+[![Alt text]()](https://www.youtube.com/watch?v=configuroweb)
