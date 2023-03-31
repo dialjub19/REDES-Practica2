@@ -59,7 +59,7 @@ Que el estudiante de Redes de Computadores 1, aprenda a implementar y  desarroll
 </div>
 
 ### 2.0 Configuracion de Host
-Se configuro cada host/computadora con la siguiente tabla.
+#### Se configuro cada host/computadora con la siguiente tabla.
 <div align="center">
 
 ![Imagen 2 Tabla](./Imagenes/tablaHost.png)
@@ -68,20 +68,21 @@ Se configuro cada host/computadora con la siguiente tabla.
 
 Donde x = numeroGrupo + ultimos 2 digitos de carnet -> x = 13 + (7+0) = 20
 
-#### Ingresamos a la interfaz de cada Host para configura su IP, mascara de subred y getaway.
+#### Para ingresar a la interfaz se siguen los siguiente pasos: 
 <div align="center">
 
 ![Imagen 3 ingresandoInterfaz](./Imagenes/ingresandoInterfaz.png)
 
 </div>
 
+### Aca configuramos la IP, Getaway y Mascara de subred de cada Host de acuerdo la tabla anterior.
 <div align="center">
 
 ![Imagen 4 IpConfig](./Imagenes/IpConfig.png)
 
 </div>
 
-Repetimos este proceso para todos los host de nuestra topologia.
+### Repetimos este proceso para todos los host de nuestra topologia.
 
 
 
